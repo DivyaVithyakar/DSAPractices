@@ -3,7 +3,7 @@ package dsapractice;
 import org.junit.Assert;
 import org.junit.Test;
 
-public class CW_Sep5_771_JewlsAndStones {
+public class LC771_JewlsAndStones {
 	
 	/*
 	 * You're given strings jewels representing the types of stones that are jewels, and stones representing the stones you have. 
