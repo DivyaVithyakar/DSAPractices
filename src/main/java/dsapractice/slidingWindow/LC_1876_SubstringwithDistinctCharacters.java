@@ -1,5 +1,8 @@
 package dsapractice.slidingWindow;
 
+import java.util.HashMap;
+import java.util.Map;
+
 import org.junit.Assert;
 import org.junit.Test;
 
@@ -28,24 +31,72 @@ public class LC_1876_SubstringwithDistinctCharacters {
 	
 	@Test
 	public void test1() {
-		int test1 = subStringwithDistincthar("aababcabc");
+		int test1 = countGoodSubstrings("aababcabc");
 		Assert.assertEquals(test1, 4);
 	}
 	
 	@Test
 	public void test2() {
-		int test1 = subStringwithDistincthar("aaaaaa");
+		int test1 = countGoodSubstrings("aaaaaa");
 		Assert.assertEquals(test1, 0);
 	}
 	
 	@Test
 	public void test3() {
-		int test1 = subStringwithDistincthar("ab");
+		int test1 = subStringwithDistinctharBF("ab");
 		Assert.assertEquals(test1, 0);
 	}
+	
+	
+	
+	
+	public static int countGoodSubstrings(String s) {
+        int left = 0;
+        int right = 0;
+        int retVal = 0;
+        Map<Character, Integer> distinct = new HashMap<Character, Integer>();
+
+      
+        while (right < 3) {
+            char ch = s.charAt(right);
+            distinct.put(ch, distinct.getOrDefault(ch, 0) + 1);
+            right++;
+        }
+
+        
+        if (distinct.size() == 3) {
+            retVal++;
+        }
+
+      
+        while (right < s.length()) {
+            char rightChar = s.charAt(right);
+            char leftChar = s.charAt(left);
+
+            distinct.put(rightChar, distinct.getOrDefault(rightChar, 0) + 1);
+            if (distinct.get(leftChar) == 1) {
+            	distinct.remove(leftChar);
+            } else {
+            	distinct.put(leftChar, distinct.get(leftChar) - 1);
+            }
+
+            
+            if (distinct.size() == 3) {
+                retVal++;
+            }
+
+            left++;
+            right++;
+        }
+
+        return retVal;
+    }
+
+
+
 	// Time Complexity - O(n)
      // Space Complexity -O(1)
-	public int subStringwithDistincthar(String s) {
+	public int subStringwithDistinctharBF(String s) {
 		int substringCount = 0;
 		if(s.length()<3) {
 			return substringCount;
