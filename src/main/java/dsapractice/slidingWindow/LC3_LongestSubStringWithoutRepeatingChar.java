@@ -75,5 +75,7 @@ public class LC3_LongestSubStringWithoutRepeatingChar {
 
 		return maxSubstringLength;
 	}
+	
+	//diff b/w set & hashset 
 
 }
