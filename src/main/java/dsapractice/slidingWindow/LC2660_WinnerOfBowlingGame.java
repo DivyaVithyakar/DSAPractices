@@ -5,7 +5,7 @@ import java.util.Arrays;
 import org.junit.Assert;
 import org.junit.Test;
 
-public class HW_Sep26_2660_WinnerOfBowlingGame {
+public class LC2660_WinnerOfBowlingGame {
 	/*
 	 * You are given two 0-indexed integer arrays player1 and player2, that represent the number of pins that player 1 and player 2 hit in a bowling game, respectively.
      *The bowling game consists of n turns, and the number of pins in each turn is exactly 10.
