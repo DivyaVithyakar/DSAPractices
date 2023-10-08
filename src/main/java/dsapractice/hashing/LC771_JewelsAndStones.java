@@ -1,4 +1,4 @@
-package daspractice.hashing;
+package dsapractice.hashing;
 
 import java.util.HashMap;
 import java.util.Map;

@@ -9,7 +9,7 @@ public class Nodes {
 	    public Nodes(int value, Nodes next) {
 	        this.value = value;
 	        this.next = next;
-	        this.size = 1; // Initialize the size with 1 for the current node
+	        this.size = 1; 
 	    }
 
 	    public static void main(String[] args) {

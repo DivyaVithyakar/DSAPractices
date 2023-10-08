@@ -1,4 +1,4 @@
-package daspractice.hashing;
+package dsapractice.hashing;
 
 import java.util.ArrayList;
 import java.util.Arrays;
