@@ -41,6 +41,11 @@ public class LC61_RotateList {
 			this.next = next;
 		}
 		
+		 ListNode(int value, ListNode next) {
+		        this.val = value;
+		        this.next = next;
+		    }
+		
 		 public ListNode rotateRight(ListNode head, int k) {
 	           if (head == null || head.next == null) return head;
 

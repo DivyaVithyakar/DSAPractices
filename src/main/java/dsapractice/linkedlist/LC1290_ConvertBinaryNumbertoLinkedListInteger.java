@@ -1,5 +1,7 @@
 package dsapractice.linkedlist;
 
+
+
 public class LC1290_ConvertBinaryNumbertoLinkedListInteger {
 	/*
 	 * Given head which is a reference node to a singly-linked list. 
@@ -38,7 +40,7 @@ public class LC1290_ConvertBinaryNumbertoLinkedListInteger {
 		private int val;
 		private ListNode next;
 
-		public ListNode(int val) {
+		public ListNode(int val, ListNode next) {
 			this.val = val;
 			this.next = next;
 		}

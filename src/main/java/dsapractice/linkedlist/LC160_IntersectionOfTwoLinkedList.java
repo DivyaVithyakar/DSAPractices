@@ -1,5 +1,7 @@
 package dsapractice.linkedlist;
 
+
+
 public class LC160_IntersectionOfTwoLinkedList {
 	
 	/*
@@ -57,7 +59,7 @@ public class LC160_IntersectionOfTwoLinkedList {
 		private int val;
 		private ListNode next;
 
-		public ListNode(int val) {
+		public ListNode(int val, ListNode next) {
 			this.val = val;
 			this.next = next;
 		}

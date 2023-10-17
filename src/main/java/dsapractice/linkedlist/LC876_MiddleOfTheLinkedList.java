@@ -1,5 +1,7 @@
 package dsapractice.linkedlist;
 
+
+
 public class LC876_MiddleOfTheLinkedList {
 	
 	/*
@@ -43,7 +45,7 @@ public class LC876_MiddleOfTheLinkedList {
 		private int val;
 		private ListNode next;
 
-		public ListNode(int val) {
+		public ListNode(int val, ListNode next) {
 			this.val = val;
 			this.next = next;
 		}
