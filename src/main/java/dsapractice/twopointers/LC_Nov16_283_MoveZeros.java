@@ -3,7 +3,7 @@ package dsapractice.twopointers;
 import org.junit.Assert;
 import org.junit.Test;
 
-public class HW_Nov16_283_MoveZeros {
+public class LC_Nov16_283_MoveZeros {
 	
 	/*
 	 * Given an integer array nums, move all 0's to the end of it while maintaining the relative order of the non-zero elements.

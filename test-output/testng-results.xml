@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="53" started-at="2024-01-31T15:10:40 CET" finished-at="2024-01-31T15:10:40 CET">
+  <suite name="Default suite" duration-ms="52" started-at="2024-02-13T14:58:47 CET" finished-at="2024-02-13T14:58:48 CET">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="53" started-at="2024-01-31T15:10:40 CET" finished-at="2024-01-31T15:10:40 CET">
-      <class name="dsapractice.Stack.LC739_DailyTemperature">
-        <test-method status="PASS" signature="test1()[pri:0, instance:dsapractice.Stack.LC739_DailyTemperature@3b084709]" name="test1" duration-ms="9" started-at="2024-01-31T15:10:40 CET" finished-at="2024-01-31T15:10:40 CET">
+    <test name="Default test" duration-ms="52" started-at="2024-02-13T14:58:47 CET" finished-at="2024-02-13T14:58:48 CET">
+      <class name="dsapractice.twopointers.LC_2108_FirstPAralindromeinArray">
+        <test-method status="PASS" signature="test1()[pri:0, instance:dsapractice.twopointers.LC_2108_FirstPAralindromeinArray@3224f60b]" name="test1" duration-ms="10" started-at="2024-02-13T14:58:48 CET" finished-at="2024-02-13T14:58:48 CET">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test1 -->
-      </class> <!-- dsapractice.Stack.LC739_DailyTemperature -->
+      </class> <!-- dsapractice.twopointers.LC_2108_FirstPAralindromeinArray -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

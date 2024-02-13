@@ -3,7 +3,7 @@ package dsapractice.twopointers;
 import org.junit.Assert;
 import org.junit.Test;
 
-public class HW_Nov7_121_BestTimetoBuyandSellStocks {
+public class LC_Nov7_121_BestTimetoBuyandSellStocks {
 	
 	/*
 	 * You are given an array prices where prices[i] is the price of a given stock on the ith day.
