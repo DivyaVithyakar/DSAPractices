@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="45" started-at="2024-02-14T14:53:26 CET" finished-at="2024-02-14T14:53:26 CET">
+  <suite name="Default suite" duration-ms="49" started-at="2024-02-19T08:52:34 CET" finished-at="2024-02-19T08:52:34 CET">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="45" started-at="2024-02-14T14:53:26 CET" finished-at="2024-02-14T14:53:26 CET">
-      <class name="dsapractice.twopointers.LC2149_ReaarangeArrayElementsSign">
-        <test-method status="PASS" signature="test1()[pri:0, instance:dsapractice.twopointers.LC2149_ReaarangeArrayElementsSign@3224f60b]" name="test1" duration-ms="9" started-at="2024-02-14T14:53:26 CET" finished-at="2024-02-14T14:53:26 CET">
+    <test name="Default test" duration-ms="49" started-at="2024-02-19T08:52:34 CET" finished-at="2024-02-19T08:52:34 CET">
+      <class name="dsapractice.BruteForce.LC241_PowerOfTwo">
+        <test-method status="PASS" signature="test1()[pri:0, instance:dsapractice.BruteForce.LC241_PowerOfTwo@3224f60b]" name="test1" duration-ms="9" started-at="2024-02-19T08:52:34 CET" finished-at="2024-02-19T08:52:34 CET">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test1 -->
-      </class> <!-- dsapractice.twopointers.LC2149_ReaarangeArrayElementsSign -->
+      </class> <!-- dsapractice.BruteForce.LC241_PowerOfTwo -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
