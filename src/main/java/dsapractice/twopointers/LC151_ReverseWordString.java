@@ -1,5 +1,8 @@
 package dsapractice.twopointers;
 
+import org.testng.Assert;
+import org.testng.annotations.Test;
+
 public class LC151_ReverseWordString {
 	
 	/*
@@ -15,10 +18,28 @@ public class LC151_ReverseWordString {
      *
 	 */
 	
+	@Test
+	public void test1() {
+		String reverseWord = reverseWord("the sky is blue");
+		Assert.assertEquals(reverseWord, "blue is sky the");
+	}
 	
 	
 	
-	public String[] reverseWord(String[] words) {
+	public String reverseWord(String s) {
+		
+		String[] arr = s.trim().split("\\s+");
+		int left = 0, right = arr.length-1;
+		while(left < right) {
+			String temp = arr[left];
+			arr[left] = arr[right];
+			arr[right] = temp;
+			left++;
+			right--;
+		}
+		
+		
+		return String.join(" ", arr);
 		
 	}
 	
