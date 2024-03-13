@@ -1,7 +1,5 @@
 package dsapractice.hashing;
 
-import java.util.HashMap;
-
 public class LC791_CustomShortString {
 	
 	/*
